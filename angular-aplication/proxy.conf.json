@@ -1,0 +1,12 @@
+{
+    "/api/*": {
+      "target": "http://127.0.0.1:8000/aplication-2/api-rest/public/api/",
+      "secure": false,
+      "logLevel": "debug",
+      "pathRewrite": {
+        "^/api/": ""
+      },
+      "changeOrigin": false
+    }
+  }
+  

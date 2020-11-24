@@ -1,0 +1,64 @@
+
+    
+    
+    .container .login{
+        text-shadow: 2px 2px 5px #7b7b7ce3;
+       max-width: 500px;
+       width: 90%;
+       background: white;
+        margin: 10% auto;
+        padding: 20px;
+        border-radius: 7px;
+        box-shadow: 5px 5px 10px #7b7b7ce3;
+      }
+      
+      .container .login .encabezado{
+        width: 100%;
+        color: #000;
+        text-align: center;
+        font-size: 30px;
+        padding-top:10px;
+        margin-bottom: 20px;
+      }
+      
+      .container .login .encabezado .inputs{
+        display: flex;
+        flex-direction:column;
+        background: rgb(28, 111, 253);;
+       color: rgb(15, 15, 15); 
+      }
+  
+      .container .login .inputs input[type="text"],
+      .container .login .inputs input[type="password"]{
+        width: 100%;
+        border: none;
+        height: 40px;
+        margin-bottom: 20px;
+        padding: 5px;
+        border-bottom: 2px solid rgb(75, 141, 255);;
+      
+      }
+      
+      .container .login .inputs input[type="text"]:focus,
+      .container .login .inputs input[type="password"]:focus{
+        outline: none;
+        border-bottom: 2px solid #031ba1;
+      }
+      
+      /*.container .login .inputs input[type="text"]::-webkit-input-placeholder{
+        color: #2979FF;
+      }*/
+      
+      .container .login .inputs button{
+        margin-top: 10px;
+        width: 100%;
+        border: none;
+        padding: 7px;
+        background: rgb(28, 111, 253);
+        box-shadow: 2px 2px 5px #7b7b7ce3;
+        color: #fff;
+        font-weight: bold;
+       
+        
+      }
+      

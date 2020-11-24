@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">Navbar</a>
+  
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/home/register-users']">Registrar Usuarios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/home/flights']">Crear Rutas aereas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/home/pqrs']">PQRS</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/home/show-flights']">Rutas aereas</a>
+        </li>
+
+            <li class="nav-item dropdown">
+              <div class="nav-item" aria-labelledby="user">
+                <a class="dropdown-item" href="#" (click)="sesionDestroy()"
+                  >Cerrar Sesión</a
+                >
+              </div>
+            </li>
+      </ul>
+    </div>
+  </nav>

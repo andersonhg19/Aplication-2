@@ -1,0 +1,226 @@
+<div class="container-fluid container-modified container">
+   
+    <div class="row ">
+      <div class="col-sm-12 col-md-6 float-left d-inline-block dos">
+        <div class="form-group row">
+        
+          
+          <h1>¡Bienvenido!</h1>
+  
+  
+        </div>
+            <p>Ingrese a continuación los siguientes campos para poder registrar el usuario.</p>
+      </div>
+    </div>
+  
+  
+    <div class="row ">
+      <div class="col-11 float-left d-inline-block dos">
+        <div class="form-group row">
+
+     
+        <div class="col-sm-12 col-md-6 mb-1 mt-1 uno ">
+            <label class="col-4 col-form-label pl-2  al"
+              > Tipo de documento:
+            </label>
+            <div class="col-7 float-right">
+              <select
+                class="form-control input-modified"
+                type="text"
+                name="id_type_document"
+                [(ngModel)]="usersmodel.id_type_document"
+              >
+              <option *ngFor="let row of rows" value="{{row.id_type_document }}">{{ row.type_document }}</option>
+              </select>
+            </div>
+          </div>
+  
+  
+          <div class="col-sm-12 col-md-6 mb-1 mt-1 uno ">
+            <label class="col-4 col-form-label pl-2  al"
+              > Numero de documento:
+            </label>
+            <div class="col-7 float-right">
+              <input
+                class="form-control input-modified"
+                type="text"
+                name="num_document"
+                [(ngModel)]="usersmodel.num_document"
+              />
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 mb-1 mt-1 uno ">
+            <label class="col-4 col-form-label pl-2  al"
+              > Contraseña:
+            </label>
+            <div class="col-7 float-right">
+              <input
+                class="form-control input-modified"
+                type="password"
+                name="password"
+                [(ngModel)]="usersmodel.password"
+              />
+            </div>
+          </div>
+  
+  
+          <div class="col-sm-12 col-md-6 mb-1 mt-1 uno ">
+            <label class="col-4 col-form-label pl-2  al"
+              > Nombre:
+            </label>
+            <div class="col-7 float-right">
+              <input
+                class="form-control input-modified"
+                type="text"
+                name="name"
+                [(ngModel)]="usersmodel.name"
+              />
+            </div>
+          </div>
+  
+  
+          <div class="col-sm-12 col-md-6 mb-1 mt-1 uno ">
+            <label class="col-4 col-form-label pl-2  al"
+              > Apellidos:
+            </label>
+            <div class="col-7 float-right">
+              <input
+                class="form-control input-modified"
+                type="text"
+                name="lastname"
+                [(ngModel)]="usersmodel.lastname"
+              />
+            </div>
+          </div>
+  
+  
+          <div class="col-sm-12 col-md-6 mb-1 mt-1 uno ">
+            <label class="col-4 col-form-label pl-2  al"
+              > Dirección:
+            </label>
+            <div class="col-7 float-right">
+              <input
+                class="form-control input-modified"
+                type="text"
+                name="address"
+                [(ngModel)]="usersmodel.address"
+              />
+            </div>
+          </div>
+  
+  
+          <div class="col-sm-12 col-md-6 mb-1 mt-1 uno ">
+            <label class="col-4 col-form-label pl-2  al"
+              > Email:
+            </label>
+            <div class="col-7 float-right">
+              <input
+                class="form-control input-modified"
+                type="text"
+                name="mail_address"
+                [(ngModel)]="usersmodel.mail_address"
+              />
+            </div>
+          </div>
+  
+  
+          <div class="col-sm-12 col-md-6 mb-1 mt-1 uno ">
+            <label class="col-4 col-form-label pl-2  al"
+              > Telefono:
+            </label>
+            <div class="col-7 float-right">
+              <input
+                class="form-control input-modified"
+                type="text"
+                name="phone"
+                [(ngModel)]="usersmodel.phone"
+              />
+            </div>
+          </div>
+  
+  
+          <div class="col-sm-12 col-md-6 mb-1 mt-1 uno ">
+            <label class="col-4 col-form-label pl-2  al"
+              > Celular:
+            </label>
+            <div class="col-7 float-right">
+              <input
+                class="form-control input-modified"
+                type="text"
+                name="cell_phone"
+                [(ngModel)]="usersmodel.cell_phone"
+              />
+            </div>
+          </div>
+  
+  
+          <div class="col-sm-12 col-md-6 mb-1 mt-1 uno ">
+            <label class="col-4 col-form-label pl-2  al"
+              > Tipo de comunicación:
+            </label>
+            <div class="col-7 float-right">
+              <select
+                class="form-control input-modified"
+                type="text"
+                name="id_type_comunication"
+                [(ngModel)]="usersmodel.id_type_comunication"
+              >
+              <option *ngFor="let row of rows3" value="{{row.id_type_comunication}}">{{ row.type_communication }}</option>
+              </select>
+            </div>
+          </div>
+  
+  
+          <div class="col-sm-12 col-md-6 mb-1 mt-1 uno ">
+            <label class="col-4 col-form-label pl-2  al"
+              > Tipo de usuario:
+            </label>
+            <div class="col-7 float-right">
+              <select
+                class="form-control input-modified"
+                type="text"
+                name="id_type_user"
+                [(ngModel)]="usersmodel.id_type_user"
+              >
+              <option *ngFor="let row of rows2" value="{{row.id_type_user }}">{{ row.type_user }}</option>
+              </select>
+            </div>
+          </div>
+  
+  
+          <div class="col-sm-12 col-md-6 mb-1 mt-1 uno ">
+            <label class="col-4 col-form-label pl-2  al"
+              > Estado usuario:
+            </label>
+            <div class="col-7 float-right">
+              <select
+                class="form-control input-modified"
+                type="text"
+                name="id_state_user"
+                [(ngModel)]="usersmodel.id_state_user"
+              >
+              <option *ngFor="let row of rows4" value="{{row.id_state_user}}">{{ row.state_user }}</option>
+              </select>
+            </div>
+          </div>
+          
+                  
+      <div class="row ml-4">
+        <div class="col-sm-12">
+          
+
+          <button
+          type="button" class="btn btn-primary btn-sm mr-3 d-inline-block"
+           (click)="submit()"> <i class="fa fa-external-link-square-alt"></i>
+          Enviar
+        </button>
+
+        </div>
+      </div> 
+            
+        </div>
+      </div>
+    </div>
+</div>
+  

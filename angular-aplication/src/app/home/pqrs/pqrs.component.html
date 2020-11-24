@@ -1,0 +1,111 @@
+<div class="container-fluid container-modified container">
+
+  
+    <div class="row ">
+      <div class="col-sm-12 col-md-6 float-left d-inline-block dos">
+        <div class="form-group row">
+        
+
+        </div>
+            <p>Ingrese a continuación los siguientes campos para poder registrar la ruta.</p>
+      </div>
+    </div>
+  
+  
+    <div class="row ">
+      <div class="col-11 float-left d-inline-block dos">
+        <div class="form-group row">
+
+              <div class="col-sm-12 col-md-6 mb-1 mt-1 uno ">
+                <label class="col-4 col-form-label pl-2  al"
+                  > Nombre:
+                </label>
+                <div class="col-7 float-right">
+                  <input
+                    class="form-control input-modified"
+                    type="text"
+                    name="code"
+                    [(ngModel)]="pqrsmodel.Name_user"
+                />
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 mb-1 mt-1 uno ">
+                <label class="col-4 col-form-label pl-2  al"
+                  >Correo:
+                </label>
+                <div class="col-7 float-right">
+                  <input
+                    class="form-control input-modified"
+                    type="text"
+                    name="mail"
+                    [(ngModel)]="pqrsmodel.mail"
+                />
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 mb-1 mt-1 uno ">
+                <label class="col-4 col-form-label pl-2  al"
+                  >Telefono:
+                </label>
+                <div class="col-7 float-right">
+                  <input
+                    class="form-control input-modified"
+                    type="text"
+                    name="phone"
+                    [(ngModel)]="pqrsmodel.phone"
+                />
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 mb-1 mt-1 uno ">
+                <label class="col-4 col-form-label pl-2  al"
+                  >Tipo:
+                </label>
+                <div class="col-7 float-right">
+                  <select
+                    class="form-control input-modified"
+                    type="text"
+                    name="name"
+                    [(ngModel)]="pqrsmodel.type"
+                >
+                <option value="1">Pregunta</option>
+                <option value="1">Queja</option>
+                <option value="1">Reclamo</option>
+                <option value="1">Sugerencia</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-12 mb-1 mt-1 uno ">
+                <label class="col-3 col-form-label pl-2  al"
+                  >Mensaje:
+                </label>
+                <div class="col-8 float-right">
+                  <input
+                    class="form-control input-modified"
+                    type="textarea"
+                    name="message"
+                    [(ngModel)]="pqrsmodel.message"
+                />
+              </div>
+            </div>
+
+        </div>
+
+                    
+    <div class="row ml-4">
+      <div class="col-sm-12">
+        
+
+        <button
+        type="button" class="btn btn-primary btn-sm mr-3 d-inline-block"
+         (click)="submit()"> <i class="fa fa-external-link-square-alt"></i>
+        Enviar
+      </button>
+
+      </div>
+    </div> 
+
+
+      </div>
+    </div>
