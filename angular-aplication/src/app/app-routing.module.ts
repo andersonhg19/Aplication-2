@@ -8,6 +8,7 @@ import { RegisterUserComponent } from './home/register-user/register-user.compon
 import { FlightsComponent } from './home/flights/flights.component';
 import { ShowFlightsComponent } from './home/show-flights/show-flights.component';
 import { PqrsComponent } from './home/pqrs/pqrs.component';
+import { MainComponent } from './home/main/main.component';
 
   
 
@@ -36,7 +37,11 @@ const routes: Routes = [
         },
         { 
           path: "", 
-          component: RegisterUserComponent 
+          component: MainComponent 
+        },
+        { 
+          path: "main", 
+          component: MainComponent 
         },
         { 
           path: "register-users", 

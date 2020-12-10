@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+body{
+    background:rgb(186, 188, 189);
+  }
+    .first{
+      background-color: #c71023;
+    }
+    .navbar-brand, .nav-link{
+      color:white;
+    }
+    .nav-link:hover{
+      background-color: #dc3545;
+      color:black;
+  
+    }
+    .form-control:focus
+    {
+      border:red;
+      box-shadow: 0 0 0 0.2rem #dc3545;
+    }
+    .btn-danger{
+      background-color: #c71023;
+    }
+    .btn-danger:hover{
+      background-color: #dc3545;
+  
+    }
+    input{
+      border-radius: 5px;
+    }
+    .container{
+      background-color: #ffffff;
+      padding-left:40px;
+      width:98%;
+  
+    }

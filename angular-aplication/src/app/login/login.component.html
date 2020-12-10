@@ -1,16 +1,17 @@
-<div class="container">
-    <div class="login">
-      <div class="encabezado">
-        <h1>INICIAR SESION</h1>
-      </div>
-      <div class="inputs">
-        <input type="text" name="usuario"  placeholder="Usuario" [(ngModel)] = "usersmodel.num_document" class="uno">
-        <input type="password" name="password1"  placeholder="Contraseña" [(ngModel)] = "usersmodel.password" class="uno">
-       <div class="row">
-         <div class="col-6 m-auto">
-        <button type="submit" name="button1" class="  btn btn-primary btn-md " (click)="login()"><i class="fa fa-user-tie"></i>  INICIAR</button>
-      </div>
+<div class="container" style="background-color: rgba(0,0,0,0)">
+  <div class="login">
+    <div class="encabezado">
+      <img style="bhorder-radius:35px;" src="https://meylab.com.mx/imagen/personalRojo.png" alt="">
+      <h1 style="color:red">INICIAR SESION</h1>
     </div>
-    </div>
+    <div class="inputs">
+      <input type="text" name="usuario"  placeholder="Usuario" [(ngModel)] = "usersmodel.num_document" class="uno">
+      <input type="password" name="password1"  placeholder="Contraseña" [(ngModel)] = "usersmodel.password" class="uno">
+     <div class="row">
+       <div class="col-6 m-auto">
+      <button type="submit" name="button1" class="  btn btn-danger btn-md " (click)="login()"><i class="fa fa-user-tie"></i>  INICIAR</button>
     </div>
   </div>
+  </div>
+  </div>
+</div>

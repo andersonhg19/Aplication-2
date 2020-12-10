@@ -14,6 +14,7 @@ import { FlightsService } from './services/flights/flights.service';
 import { ShowFlightsComponent } from './home/show-flights/show-flights.component';
 import { PqrsComponent } from './home/pqrs/pqrs.component';
 import { PqrsService } from './services/pqrs/pqrs.service';
+import { MainComponent } from './home/main/main.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PqrsService } from './services/pqrs/pqrs.service';
     RegisterUserComponent,
     FlightsComponent,
     ShowFlightsComponent,
-    PqrsComponent
+    PqrsComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
